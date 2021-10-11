@@ -4,8 +4,9 @@ import java.util.List;
 
 import javax.validation.Valid;
 
-import com.pedrada.springwebmvc.model.*;
+import com.pedrada.springwebmvc.model.Jedi;
 import com.pedrada.springwebmvc.service.JediService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -20,11 +21,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class JediResource {
 
-    private final JediService service;
-
-    public JediResource(JediService service) {
-        this.service = service;
-    }
+    @Autowired
+    private JediService service;
 
     @GetMapping("/api/jedi")
     public List<Jedi> getAllJedi() {
