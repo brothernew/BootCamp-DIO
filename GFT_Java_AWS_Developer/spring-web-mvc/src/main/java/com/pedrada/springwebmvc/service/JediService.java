@@ -1,9 +1,8 @@
 package com.pedrada.springwebmvc.service;
 
-import com.pedrada.springwebmvc.excepiton.JediNotFoundException;
-import com.pedrada.springwebmvc.model.Jedi;
+import com.pedrada.springwebmvc.excepiton.*;
+import com.pedrada.springwebmvc.model.*;
 import com.pedrada.springwebmvc.repository.JediRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -12,8 +11,11 @@ import java.util.Optional;
 @Service
 public class JediService {
 
-    @Autowired
-    private JediRepository repository;
+    private final JediRepository repository;
+
+    public JediService(JediRepository repository) {
+        this.repository = repository;
+    }
 
     public List<Jedi> findAll() {
 

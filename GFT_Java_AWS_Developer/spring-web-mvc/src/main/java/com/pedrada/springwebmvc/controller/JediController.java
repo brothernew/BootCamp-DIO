@@ -1,8 +1,7 @@
 package com.pedrada.springwebmvc.controller;
 
-import com.pedrada.springwebmvc.model.Jedi;
+import com.pedrada.springwebmvc.model.*;
 import com.pedrada.springwebmvc.repository.JediRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -16,8 +15,11 @@ import java.util.Optional;
 @Controller
 public class JediController {
 
-    @Autowired
-    private JediRepository repository;
+    private final JediRepository repository;
+
+    public JediController(JediRepository repository) {
+        this.repository = repository;
+    }
 
     @GetMapping("/jedi")
     public ModelAndView jedi(){
