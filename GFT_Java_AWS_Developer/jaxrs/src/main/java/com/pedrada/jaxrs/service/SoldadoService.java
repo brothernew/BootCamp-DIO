@@ -3,8 +3,6 @@ package com.pedrada.jaxrs.service;
 import com.pedrada.jaxrs.dto.Soldado;
 import org.springframework.stereotype.Service;
 
-import javax.swing.*;
-
 @Service
 public class SoldadoService {
 
