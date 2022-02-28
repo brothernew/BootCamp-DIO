@@ -15,8 +15,13 @@ public class Main_4 {
         Calculadora.divisao(5, 2.5);
 
         //Data + Hora + Mensagem
+        System.out.println("\n"+"Exercício mensagem");
         Mensagem.main(args);
 
-        
+        //Emprestimo
+        System.out.println("\n"+"Exercício emprestimo");
+        Emprestimo.calcular(1000, Emprestimo.getDuasParcelas());
+        Emprestimo.calcular(1000, Emprestimo.getTresParcelas());
+        Emprestimo.calcular(1000, 5);
     }
 }
