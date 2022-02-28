@@ -10,16 +10,15 @@ public class Mensagem{
 		int hora = c1.get(Calendar.HOUR_OF_DAY);
 
         Date data = new Date();
-        System.out.println(data);
 
     if(hora > 6 && hora < 12){
-        System.out.println("Bom Dia");
+        System.out.println(data+" > - > - > - | *** Bom Dia !");
         }
         else if(hora > 12 && hora < 18){
-            System.out.println("Boa Tarde");
+            System.out.println(data+" > - > - > - | *** Boa Tarde !");
         }
         else{
-			System.out.println("Boa Noite");
+			System.out.println(data+" > - > - > - | *** Boa Noite !");
 		}
 	}
 }

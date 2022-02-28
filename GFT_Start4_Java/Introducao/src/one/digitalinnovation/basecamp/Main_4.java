@@ -14,7 +14,7 @@ public class Main_4 {
         Calculadora.multiplicacao(7, 8);
         Calculadora.divisao(5, 2.5);
 
-        //Mensagem Data + hora
+        //Data + Hora + Mensagem
         Mensagem.main(args);
     }
 }
