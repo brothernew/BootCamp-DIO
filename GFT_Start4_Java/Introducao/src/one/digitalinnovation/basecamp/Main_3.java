@@ -83,5 +83,27 @@ public class Main_3 {
 
     public static void procedencia(){
 
+        int i = 10;
+        int j = 20;
+        int k = 30;
+
+        int a = i++ + --j * k;
+
+        System.out.println("i++ + --j * k: " + a);
+
+        System.out.println("i: " + i);
+
+        int b = k / --j % 3 + 1;
+
+        System.out.println("k / --j % 3 + 1: " + b);
+
+        System.out.println("i: " + i);
+
+        int c = 2;
+
+        c *= i += 5;
+
+        System.out.println("c *= i += 5: " + c);
+
     }
 }
