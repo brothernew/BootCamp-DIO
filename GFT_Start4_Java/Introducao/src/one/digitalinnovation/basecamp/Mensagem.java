@@ -18,7 +18,7 @@ public class Mensagem{
             System.out.println(data+" > - > - > - | *** Boa Tarde !");
         }
         else{
-			System.out.println(data+" > - > - > - | *** Boa Noite !");
+            System.out.println(data+" > - > - > - | *** Boa Noite !");
 		}
 	}
 }
