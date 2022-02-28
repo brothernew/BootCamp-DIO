@@ -15,7 +15,7 @@ public class Mensagem{
     if(hora >= 6 && hora < 12){
         System.out.println(data+" > - > - > - | *** Bom Dia !");
         }
-        else if(hora >= 12 && hora <= 18){
+        else if(hora >= 12 && hora <= 17.99){
             System.out.println(data+" > - > - > - | *** Boa Tarde !");
         }
         else{
