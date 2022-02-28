@@ -1,12 +1,11 @@
 package one.digitalinnovation.basecamp;
 
-//Main_4
-
 import java.util.Calendar;
 import java.util.Date;
 
 public class Mensagem{
 
+    //Main_4
 	public static void main(String[] args) {
 		Calendar c1 = Calendar.getInstance();
 		int hora = c1.get(Calendar.HOUR_OF_DAY);
