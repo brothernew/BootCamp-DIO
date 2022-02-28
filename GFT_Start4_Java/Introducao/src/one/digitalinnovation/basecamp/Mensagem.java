@@ -12,7 +12,7 @@ public class Mensagem{
 
         Date data = new Date();
 
-    if(hora >= 6 && hora < 12){
+    if(hora >= 6 && hora <= 11.99){
         System.out.println(data+" > - > - > - | *** Bom Dia !");
         }
         else if(hora >= 12 && hora <= 17.99){
