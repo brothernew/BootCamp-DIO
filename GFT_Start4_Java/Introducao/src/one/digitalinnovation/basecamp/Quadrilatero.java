@@ -1,6 +1,6 @@
 package one.digitalinnovation.basecamp;
 
-public class Quadrilatero {
+public class Quadrilatero{
 
     public static void area(double lado){
 
