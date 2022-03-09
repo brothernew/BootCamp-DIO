@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Ex4_ParImpar",
+            "request": "launch",
+            "mainClass": "br.com.dio.exercicios.loops.Ex4_ParImpar",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "Launch Ex3_MaiorMedia",
             "request": "launch",
             "mainClass": "br.com.dio.exercicios.loops.Ex3_MaiorMedia",
