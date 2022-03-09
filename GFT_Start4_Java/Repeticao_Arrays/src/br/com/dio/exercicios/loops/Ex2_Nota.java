@@ -4,7 +4,6 @@ public class Ex2_Nota {
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
-
         int nota;
 
         while(true){

@@ -1,0 +1,56 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Ex3_MaiorMedia",
+            "request": "launch",
+            "mainClass": "br.com.dio.exercicios.loops.Ex3_MaiorMedia",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch JaxrsApplication",
+            "request": "launch",
+            "mainClass": "com.pedrada.jaxrs.JaxrsApplication",
+            "projectName": "jaxrs"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProductCatalogApplication",
+            "request": "launch",
+            "mainClass": "com.pedrada.productcatalog.ProductCatalogApplication",
+            "projectName": "product-catalog"
+        },
+        {
+            "type": "java",
+            "name": "Launch SpringWebMvcApplication",
+            "request": "launch",
+            "mainClass": "com.pedrada.springwebmvc.SpringWebMvcApplication",
+            "projectName": "spring-web-mvc"
+        },
+        {
+            "type": "java",
+            "name": "Launch SpringbootconfigApplication",
+            "request": "launch",
+            "mainClass": "com.pedrada.springbootconfig.SpringbootconfigApplication",
+            "projectName": "springbootconfig"
+        },
+        {
+            "type": "java",
+            "name": "Launch SpringbootApplication",
+            "request": "launch",
+            "mainClass": "com.pedrada.springboot.SpringbootApplication",
+            "projectName": "springboot"
+        }
+    ]
+}
