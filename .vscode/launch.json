@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Ex2_Consoantes",
+            "request": "launch",
+            "mainClass": "br.com.dio.exercicios.arrays.Ex2_Consoantes",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "Launch Ex1_OrdemInversa",
             "request": "launch",
             "mainClass": "br.com.dio.exercicios.arrays.Ex1_OrdemInversa",
