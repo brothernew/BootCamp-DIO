@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Ex6_Fatorial",
+            "request": "launch",
+            "mainClass": "br.com.dio.exercicios.loops.Ex6_Fatorial",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex5_Tabuada",
+            "request": "launch",
+            "mainClass": "br.com.dio.exercicios.loops.Ex5_Tabuada",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "Launch Ex4_ParImpar",
             "request": "launch",
             "mainClass": "br.com.dio.exercicios.loops.Ex4_ParImpar",
