@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch testes_2",
+            "request": "launch",
+            "mainClass": "br.com.dio.exercicios.arrays.testes_2",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Program",
+            "request": "launch",
+            "mainClass": "one.digitalinnovation.basecamp.Program",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch testes",
+            "request": "launch",
+            "mainClass": "br.com.dio.exercicios.arrays.testes",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "Launch Ex4_ArrayMultidimensional",
             "request": "launch",
             "mainClass": "br.com.dio.exercicios.arrays.Ex4_ArrayMultidimensional",
