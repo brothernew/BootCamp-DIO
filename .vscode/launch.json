@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Ex3_NumAleatorios",
+            "request": "launch",
+            "mainClass": "br.com.dio.exercicios.arrays.Ex3_NumAleatorios",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "Launch Ex2_Consoantes",
             "request": "launch",
             "mainClass": "br.com.dio.exercicios.arrays.Ex2_Consoantes",
