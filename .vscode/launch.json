@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Ex4_ArrayMultidimensional",
+            "request": "launch",
+            "mainClass": "br.com.dio.exercicios.arrays.Ex4_ArrayMultidimensional",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "Launch Ex3_NumAleatorios",
             "request": "launch",
             "mainClass": "br.com.dio.exercicios.arrays.Ex3_NumAleatorios",
