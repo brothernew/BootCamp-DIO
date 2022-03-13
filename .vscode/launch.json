@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch testes_4",
+            "request": "launch",
+            "mainClass": "br.com.dio.exercicios.arrays.testes_4",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "Launch testes_2",
             "request": "launch",
             "mainClass": "br.com.dio.exercicios.arrays.testes_2",
