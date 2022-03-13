@@ -27,7 +27,7 @@ public class Ex2_Consoantes {
                 count++;
             } while (count < cons.length);
             
-            System.out.println("\nConsoantes: ");
+            System.out.println("\nConsoantes digitadas: ");
             
             for (String consoante : cons) {
                 if(consoante != null)
