@@ -10,8 +10,9 @@ import java.time.Duration;
 
 public class postRequest {
 
-    public static final String URL_POST = "https://geeksforgeeks-example.surge.sh";
-    public static final String FILE_JSON = "D:/BootCamp-DIO/BootCamp-DIO/GFT_Start4_Java/HttpExample/data.json";
+    public static final String URL_POST = "http://httpbin.org/forms/post";
+    //public static final String URL_POST = "https://geeksforgeeks-example.surge.sh";
+    public static final String FILE_JSON = "data.json";
 
     public static void main(String[] args) throws IOException, InterruptedException {
 
