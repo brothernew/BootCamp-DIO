@@ -14,7 +14,7 @@ public class postRequest {
     //public static final String URL_POST = "https://geeksforgeeks-example.surge.sh";
     public static final String FILE_JSON = "data.json";
 
-    public static void main(String[] args) throws IOException, InterruptedException {
+    public static void main(String[] args) throws IOException {
 
         //Cliente HTTP
         HttpClient client = HttpClient.newHttpClient();
