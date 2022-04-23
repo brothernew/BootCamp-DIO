@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01fdaaa1-d74a-4cf2-b559-3d0f51f22a38" name="Changes" comment="Commit Uptade !">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projetoonefeign1/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/projetoonefeign1/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projetoonefeign2/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/projetoonefeign2/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="01fdaaa1-d74a-4cf2-b559-3d0f51f22a38" name="Changes" comment="Commit Uptade !" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1650750337863</updated>
       <workItem from="1650750340013" duration="1307000" />
-      <workItem from="1650751771077" duration="742000" />
+      <workItem from="1650751771077" duration="3230000" />
     </task>
     <task id="LOCAL-00001" summary="Commit Uptade !">
       <created>1650751953151</created>
@@ -117,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650752424836</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Commit Uptade !">
+      <created>1650752570363</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1650752570363</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
